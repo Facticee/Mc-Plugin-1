@@ -1,1 +1,1 @@
-A Minecraft Plugin I created for the server of my friends and me. It began with a few ideas and it grew over time.
+A Minecraft Plugin I created for the server of my friends and me. It began with a few ideas and it grew over time. I began with simple custom join and leave messages and a timer. Now i have an own clan system and more.
