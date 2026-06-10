@@ -1,0 +1,12 @@
+name: DPSGM
+main: io.github.facticee.dpsgm.Main
+version: 1.0.0
+api-version: 1.21.10
+
+
+
+permissions:
+  admin:
+    default: op
+    description: permissions für commands
+

@@ -1,0 +1,273 @@
+[20:05:50] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.1+11-39; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[20:05:50] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-113-main@9fc21bc (2025-11-14T16:11:13Z) for Minecraft 1.21.10
+[20:05:50] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:05:51] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[20:05:51] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - DPSGM (1.0.0)
+[20:05:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:05:57] [ServerMain/INFO]: Loaded 1461 recipes
+[20:05:57] [ServerMain/INFO]: Loaded 1574 advancements
+[20:05:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:05:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 319,5ms
+[20:05:57] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[20:05:57] [Server thread/INFO]: Loading properties
+[20:05:57] [Server thread/INFO]: This server is running Paper version 1.21.10-113-main@9fc21bc (2025-11-14T16:11:13Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[20:05:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:05:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:05:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:05:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[20:05:58] [Server thread/INFO]: Default game type: SURVIVAL
+[20:05:58] [Server thread/INFO]: Generating keypair
+[20:05:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:05:58] [Server thread/INFO]: Using default channel type
+[20:05:58] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:05:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:05:58] [Server thread/INFO]: [DPSGM] Loading server plugin DPSGM v1.0.0
+[20:05:59] [Server thread/INFO]: Server gestartet!
+[20:05:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:05:59] [Server thread/INFO]: Preparing level "world"
+[20:05:59] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[20:05:59] [Server thread/INFO]: Prepared spawn area in 7 ms
+[20:05:59] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[20:05:59] [Server thread/INFO]: Prepared spawn area in 14 ms
+[20:05:59] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[20:05:59] [Server thread/INFO]: Prepared spawn area in 15 ms
+[20:05:59] [Server thread/INFO]: Done preparing level "world" (0.553s)
+[20:05:59] [Server thread/WARN]: Plugin DPSGM v1.0.0 tried to register permission 'admin' but it's already registered
+[20:05:59] [Server thread/INFO]: [DPSGM] Enabling DPSGM v1.0.0
+[20:06:00] [Server thread/INFO]: [spark] Starting background profiler...
+[20:06:00] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:06:00] [Server thread/INFO]: Running delayed init tasks
+[20:06:00] [Server thread/INFO]: Done (10.920s)! For help, type "help"
+[20:06:03] [User Authenticator #0/INFO]: UUID of player Factice is f0734618-20c4-4d6c-a5fe-b34da89ce5ce
+[20:06:04] [Server thread/INFO]: >> Factice
+[20:06:04] [Server thread/INFO]: Factice[/127.0.0.1:49254] logged in with entity id 35 at ([world]-375.1435214289348, 98.85123680345905, 486.8787898034062)
+[20:06:09] [Server thread/INFO]: Factice issued server command: /time set day
+[20:06:09] [Server thread/INFO]: [Factice: Set the time to 1000]
+[20:06:13] [Server thread/INFO]: Factice issued server command: /fireball enable
+[20:07:01] [Server thread/INFO]: Factice issued server command: /fireball enable true
+[20:07:53] [Server thread/INFO]: Factice issued server command: /chaositem
+[20:08:12] [Server thread/INFO]: Factice issued server command: /timer show
+[20:08:17] [Server thread/INFO]: Factice issued server command: /timer start
+[20:08:40] [Server thread/INFO]: Factice issued server command: /fireball debug
+[20:08:40] [Server thread/WARN]: net.kyori.adventure.text.LegacyFormattingDetected: Legacy formatting codes have been detected in a component - this is unsupported behaviour. Please refer to the Adventure documentation (https://docs.advntr.dev) for more information. Component: TextComponentImpl{content="§eFireball Debug ist jetzt §aAN", style=StyleImpl{obfuscated=not_set, bold=not_set, strikethrough=not_set, underlined=not_set, italic=not_set, color=null, shadowColor=null, clickEvent=null, hoverEvent=null, insertion=null, font=null}, children=[]}
+[20:08:40] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.warnWhenLegacyFormattingDetected(TextComponentImpl.java:84)
+[20:08:40] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.<init>(TextComponentImpl.java:74)
+[20:08:40] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.create(TextComponentImpl.java:55)
+[20:08:40] [Server thread/WARN]: 	at net.kyori.adventure.text.Component.text(Component.java:863)
+[20:08:40] [Server thread/WARN]: 	at net.kyori.adventure.text.Component.text(Component.java:850)
+[20:08:40] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.dpsgm.commands.EventCommand.FireballCommand$lambda$0$3$$inlined$playerExecutor$1.run(ExecutorDSL.kt:163)
+[20:08:40] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.executors.PlayerCommandExecutor.run(PlayerCommandExecutor.java:48)
+[20:08:40] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.executors.NormalExecutor.executeWith(NormalExecutor.java:44)
+[20:08:40] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:137)
+[20:08:40] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:110)
+[20:08:40] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:91)
+[20:08:40] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIHandler.lambda$generateCommand$0(CommandAPIHandler.java:261)
+[20:08:40] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:364)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:352)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1517)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352)
+[20:08:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384)
+[20:08:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[20:09:10] [Server thread/INFO]: Factice issued server command: /fireball debug
+[20:09:10] [Server thread/WARN]: net.kyori.adventure.text.LegacyFormattingDetected: Legacy formatting codes have been detected in a component - this is unsupported behaviour. Please refer to the Adventure documentation (https://docs.advntr.dev) for more information. Component: TextComponentImpl{content="§eFireball Debug ist jetzt §cAUS", style=StyleImpl{obfuscated=not_set, bold=not_set, strikethrough=not_set, underlined=not_set, italic=not_set, color=null, shadowColor=null, clickEvent=null, hoverEvent=null, insertion=null, font=null}, children=[]}
+[20:09:10] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.warnWhenLegacyFormattingDetected(TextComponentImpl.java:84)
+[20:09:10] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.<init>(TextComponentImpl.java:74)
+[20:09:10] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.create(TextComponentImpl.java:55)
+[20:09:10] [Server thread/WARN]: 	at net.kyori.adventure.text.Component.text(Component.java:863)
+[20:09:10] [Server thread/WARN]: 	at net.kyori.adventure.text.Component.text(Component.java:850)
+[20:09:10] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.dpsgm.commands.EventCommand.FireballCommand$lambda$0$3$$inlined$playerExecutor$1.run(ExecutorDSL.kt:163)
+[20:09:10] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.executors.PlayerCommandExecutor.run(PlayerCommandExecutor.java:48)
+[20:09:10] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.executors.NormalExecutor.executeWith(NormalExecutor.java:44)
+[20:09:10] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:137)
+[20:09:10] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:110)
+[20:09:10] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:91)
+[20:09:10] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIHandler.lambda$generateCommand$0(CommandAPIHandler.java:261)
+[20:09:10] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:364)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:352)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runAllTasksAtTickStart(MinecraftServer.java:1176)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1337)
+[20:09:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384)
+[20:09:10] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[20:09:12] [Server thread/INFO]: Factice issued server command: /fireball velocityinfo
+[20:09:12] [Server thread/WARN]: net.kyori.adventure.text.LegacyFormattingDetected: Legacy formatting codes have been detected in a component - this is unsupported behaviour. Please refer to the Adventure documentation (https://docs.advntr.dev) for more information. Component: TextComponentImpl{content="§eFireball Debug ist jetzt §aAN", style=StyleImpl{obfuscated=not_set, bold=not_set, strikethrough=not_set, underlined=not_set, italic=not_set, color=null, shadowColor=null, clickEvent=null, hoverEvent=null, insertion=null, font=null}, children=[]}
+[20:09:12] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.warnWhenLegacyFormattingDetected(TextComponentImpl.java:84)
+[20:09:12] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.<init>(TextComponentImpl.java:74)
+[20:09:12] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.create(TextComponentImpl.java:55)
+[20:09:12] [Server thread/WARN]: 	at net.kyori.adventure.text.Component.text(Component.java:863)
+[20:09:12] [Server thread/WARN]: 	at net.kyori.adventure.text.Component.text(Component.java:850)
+[20:09:12] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.dpsgm.commands.EventCommand.FireballCommand$lambda$0$4$$inlined$playerExecutor$1.run(ExecutorDSL.kt:163)
+[20:09:12] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.executors.PlayerCommandExecutor.run(PlayerCommandExecutor.java:48)
+[20:09:12] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.executors.NormalExecutor.executeWith(NormalExecutor.java:44)
+[20:09:12] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:137)
+[20:09:12] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:110)
+[20:09:12] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:91)
+[20:09:12] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIHandler.lambda$generateCommand$0(CommandAPIHandler.java:261)
+[20:09:12] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:364)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:352)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1517)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352)
+[20:09:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384)
+[20:09:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[20:09:20] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 0de90312-c079-4c45-a74b-ac51fd4eec8a, mapped to Turtle['Turtle'/10642, uuid='0de90312-c079-4c45-a74b-ac51fd4eec8a', l='ServerLevel[world]', x=-336.56, y=60.06, z=134.59, cpos=[-22, 8], tl=324, v=true], can't add Turtle['Turtle'/10999, uuid='0de90312-c079-4c45-a74b-ac51fd4eec8a', l='ServerLevel[world]', x=-280.90, y=58.39, z=65.63, cpos=[-18, 4], tl=0, v=false]
+[20:09:20] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 316bcb21-d73b-4265-b711-bf5a57939f6e, mapped to Turtle['Turtle'/10817, uuid='316bcb21-d73b-4265-b711-bf5a57939f6e', l='ServerLevel[world]', x=-294.97, y=54.27, z=95.94, cpos=[-19, 5], tl=0, v=true], can't add Turtle['Turtle'/11000, uuid='316bcb21-d73b-4265-b711-bf5a57939f6e', l='ServerLevel[world]', x=-280.24, y=54.16, z=71.24, cpos=[-18, 4], tl=0, v=false]
+[20:09:23] [Server thread/INFO]: Factice issued server command: /fireball velocityinfo
+[20:09:23] [Server thread/WARN]: net.kyori.adventure.text.LegacyFormattingDetected: Legacy formatting codes have been detected in a component - this is unsupported behaviour. Please refer to the Adventure documentation (https://docs.advntr.dev) for more information. Component: TextComponentImpl{content="§eFireball Debug ist jetzt §cAUS", style=StyleImpl{obfuscated=not_set, bold=not_set, strikethrough=not_set, underlined=not_set, italic=not_set, color=null, shadowColor=null, clickEvent=null, hoverEvent=null, insertion=null, font=null}, children=[]}
+[20:09:23] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.warnWhenLegacyFormattingDetected(TextComponentImpl.java:84)
+[20:09:23] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.<init>(TextComponentImpl.java:74)
+[20:09:23] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.create(TextComponentImpl.java:55)
+[20:09:23] [Server thread/WARN]: 	at net.kyori.adventure.text.Component.text(Component.java:863)
+[20:09:23] [Server thread/WARN]: 	at net.kyori.adventure.text.Component.text(Component.java:850)
+[20:09:23] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.dpsgm.commands.EventCommand.FireballCommand$lambda$0$4$$inlined$playerExecutor$1.run(ExecutorDSL.kt:163)
+[20:09:23] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.executors.PlayerCommandExecutor.run(PlayerCommandExecutor.java:48)
+[20:09:23] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.executors.NormalExecutor.executeWith(NormalExecutor.java:44)
+[20:09:23] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:137)
+[20:09:23] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:110)
+[20:09:23] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:91)
+[20:09:23] [Server thread/WARN]: 	at DPSG-1.0-SNAPSHOT-all.jar//io.github.facticee.libs.commandapi.CommandAPIHandler.lambda$generateCommand$0(CommandAPIHandler.java:261)
+[20:09:23] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:364)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:352)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runAllTasksAtTickStart(MinecraftServer.java:1176)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1337)
+[20:09:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384)
+[20:09:23] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[20:09:27] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 316bcb21-d73b-4265-b711-bf5a57939f6e, mapped to Turtle['Turtle'/10817, uuid='316bcb21-d73b-4265-b711-bf5a57939f6e', l='ServerLevel[world]', x=-299.27, y=54.87, z=89.56, cpos=[-19, 5], tl=98, v=true], can't add Turtle['Turtle'/11040, uuid='316bcb21-d73b-4265-b711-bf5a57939f6e', l='ServerLevel[world]', x=-268.98, y=55.99, z=47.95, cpos=[-17, 2], tl=0, v=false]
+[20:09:35] [Server thread/INFO]: Factice issued server command: /timer hide
+[20:09:41] [Server thread/INFO]: Factice issued server command: /timer show
+[20:09:45] [Server thread/INFO]: Factice issued server command: /timer reset
+[20:09:47] [Server thread/INFO]: Factice issued server command: /timer hide
+[20:10:05] [Server thread/INFO]: Factice issued server command: /broadcast sex
+[20:10:05] [Server thread/INFO]: [Broadcast]: sex
+[20:10:47] [Server thread/INFO]: Factice issued server command: /heal
+[20:10:50] [Server thread/INFO]: Factice issued server command: /feed
+[20:10:52] [Server thread/INFO]: Factice issued server command: /feed Factice
+[20:10:52] [Server thread/ERROR]: [CommandAPI] Unhandled exception executing '/feed Factice'
+java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class org.bukkit.entity.Player (java.util.ArrayList is in module java.base of loader 'bootstrap'; org.bukkit.entity.Player is in unnamed module of loader java.net.URLClassLoader @4dcbadb4)
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.dpsgm.commands.admin.FeedCommand$command$lambda$0$0$$inlined$playerExecutor$1.run(ExecutorDSL.kt:166) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.executors.PlayerCommandExecutor.run(PlayerCommandExecutor.java:48) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.executors.NormalExecutor.executeWith(NormalExecutor.java:44) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:137) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:110) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:91) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.CommandAPIHandler.lambda$generateCommand$0(CommandAPIHandler.java:261) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:352) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1517) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[?:?]
+[20:10:52] [Server thread/ERROR]: Command exception: /feed Factice
+java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class org.bukkit.entity.Player (java.util.ArrayList is in module java.base of loader 'bootstrap'; org.bukkit.entity.Player is in unnamed module of loader java.net.URLClassLoader @4dcbadb4)
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.dpsgm.commands.admin.FeedCommand$command$lambda$0$0$$inlined$playerExecutor$1.run(ExecutorDSL.kt:166) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.executors.PlayerCommandExecutor.run(PlayerCommandExecutor.java:48) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.executors.NormalExecutor.executeWith(NormalExecutor.java:44) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:137) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:110) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.CommandAPIExecutor.execute(CommandAPIExecutor.java:91) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at DPSG-1.0-SNAPSHOT-all.jar/io.github.facticee.libs.commandapi.CommandAPIHandler.lambda$generateCommand$0(CommandAPIHandler.java:261) ~[DPSG-1.0-SNAPSHOT-all.jar:?]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:352) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1517) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384) ~[paper-1.21.10.jar:1.21.10-113-9fc21bc]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[?:?]
+[20:13:32] [Server thread/INFO]: Factice lost connection: Disconnected
+[20:13:32] [Server thread/INFO]: << Factice

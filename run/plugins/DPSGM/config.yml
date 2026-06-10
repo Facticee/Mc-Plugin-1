@@ -1,0 +1,28 @@
+global:
+  # Settings for the automatic version updater
+  auto updater:
+    notify: true
+    download: false
+    
+    # Number of seconds to wait until a new update is downloaded
+    delay: 43200 # 12 hours
+  
+  metrics: true
+  
+  # Prints certain warnings to players with the protocol.info permission
+  chat warnings: true
+  
+  # Automatically compile structure modifiers 
+  background compiler: true
+  
+  # Whether or not to enable the filter command
+  debug: false
+  
+  # Whether or not to print a stack trace for every warning
+  detailed error: false
+  
+  # The engine used by the filter command
+  script engine: JavaScript
+f0734618-20c4-4d6c-a5fe-b34da89ce5ce: pink
+f0734618-20c4-4d6c-a5fe-b34da89ce5ce-suffix: '&#8D0000&lT&#B30000&lE&#D90000&lS&#FF0000&lT'
+e5919085-8051-49da-b68d-d893dbe6b1a2: blue
