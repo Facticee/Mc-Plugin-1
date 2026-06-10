@@ -5,3 +5,10 @@ Before that, I also tried to copy Hypixel Fireball Bedwars. I played it a lot an
 
 Now Ive created my own clan system where players can join groups and havbe a private chat and custom name colors there.
 Im still thinking about new thigns to add. My freinds also have a few ideas. 
+A Minecraft plugin I made for the server of my friends and me. At the beginning it was very small and I just had a few ideas. It slowly started to grow.
+A Minecraft plugin I made for the server of my friends and me. At the beginning it was very small and I just had a few ideas. It slowly started to grow.
+A Minecraft plugin I made for the server of my friends and me. At the beginning it was very small and I just had a few ideas. It slowly started to grow.
+A Minecraft plugin I made for the server of my friends and me. At the beginning it was very small and I just had a few ideas. It slowly started to grow.
+A Minecraft plugin I made for the server of my friends and me. At the beginning it was very small and I just had a few ideas. It slowly started to grow.
+A Minecraft plugin I made for the server of my friends and me. At the beginning it was very small and I just had a few ideas. It slowly started to grow.
+A Minecraft plugin I made for the server of my friends and me. At the beginning it was very small and I just had a few ideas. It slowly started to grow.
